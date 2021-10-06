@@ -1,0 +1,32 @@
+/* footer */
+
+.footer {
+  height: 48px;
+  display: flex;
+    justify-content: center;
+}
+.footer__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 15px 16px;
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+  // height: 48px;
+  // display: flex;
+  //   justify-content: center;
+  display: none;
+}
+.footer__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 15px 16px;
+}
+}

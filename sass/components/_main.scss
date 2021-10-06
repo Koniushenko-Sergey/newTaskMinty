@@ -1,0 +1,389 @@
+/* main */
+
+  .hero {
+    margin-left: 170px;
+}
+
+.hero__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero__item {
+  width: 235px;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.cursors {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+
+.cursor {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 25px;
+  background-color: transparent;
+  left: 48.5%;
+  padding-top: 40%;
+  display: inline-block;
+  -webkit-animation: bounce;
+          animation: bounce;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+.gif {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  display: flex;
+  padding: 100px 100px;
+}
+
+.pix {
+  width: 235px;
+  height: 235px;
+  background-color: #BDB600;
+  opacity: 0.4;
+  text-align: center;
+  position: absolute;
+}
+
+.pixes {
+  width: 235px;
+  height: 235px;
+  text-align: center;
+  position: absolute;
+  background-color: #000000;
+  opacity: 0.8;
+}
+
+.pixes__text {
+  text-transform: uppercase;
+  color: #FFC700;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: centre;
+  margin-top: 30%;
+}
+
+.pixes__sub--text {
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: centre;
+}
+
+.hero__frame {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background-image: url(.img/Rectangle98.png);
+  opacity: 1;
+  z-index: 1000;
+}
+
+@media screen and (max-width: 960px) {
+    .hero {
+    // margin-left: 85px;
+}
+
+.hero__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero__item {
+  width: 235px;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.cursors {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+
+.cursor {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 25px;
+  background-color: transparent;
+  left: 48.5%;
+  padding-top: 40%;
+  display: inline-block;
+  -webkit-animation: bounce;
+          animation: bounce;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+.gif {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  display: flex;
+  padding: 100px 100px;
+}
+
+.pix {
+  width: 235px;
+  height: 235px;
+  background-color: #BDB600;
+  opacity: 0.4;
+  text-align: center;
+  position: absolute;
+}
+
+.pixes {
+  width: 235px;
+  height: 235px;
+  text-align: center;
+  position: absolute;
+  background-color: #000000;
+  opacity: 0.8;
+}
+
+.pixes__text {
+  text-transform: uppercase;
+  color: #FFC700;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: centre;
+  margin-top: 30%;
+}
+
+.pixes__sub--text {
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: centre;
+}
+
+.hero__frame {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background-image: url(.img/Rectangle98.png);
+  opacity: 1;
+  z-index: 1000;
+}
+}
+
+@media screen and (max-width: 720px) {
+    .hero {
+    margin-left: 85px;
+}
+
+.hero__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero__item {
+  width: 235px;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.cursors {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+
+.cursor {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 25px;
+  background-color: transparent;
+  left: 48.5%;
+  padding-top: 40%;
+  display: inline-block;
+  -webkit-animation: bounce;
+          animation: bounce;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+.gif {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  display: flex;
+  padding: 100px 100px;
+}
+
+.pix {
+  width: 235px;
+  height: 235px;
+  background-color: #BDB600;
+  opacity: 0.4;
+  text-align: center;
+  position: absolute;
+}
+
+.pixes {
+  width: 235px;
+  height: 235px;
+  text-align: center;
+  position: absolute;
+  background-color: #000000;
+  opacity: 0.8;
+}
+
+.pixes__text {
+  text-transform: uppercase;
+  color: #FFC700;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: centre;
+  margin-top: 30%;
+}
+
+.pixes__sub--text {
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: centre;
+}
+
+.hero__frame {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background-image: url(.img/Rectangle98.png);
+  opacity: 1;
+  z-index: 1000;
+}
+}
+
+@media screen and (max-width: 320px) {
+    .hero {
+    margin-left: 100px;
+}
+
+.hero__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero__item {
+  width: 235px;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.cursors {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+
+.cursor {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 25px;
+  background-color: transparent;
+  left: 48.5%;
+  padding-top: 40%;
+  display: inline-block;
+  -webkit-animation: bounce;
+          animation: bounce;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+.gif {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  display: flex;
+  padding: 100px 100px;
+}
+
+.pix {
+  width: 235px;
+  height: 235px;
+  background-color: #BDB600;
+  opacity: 0.4;
+  text-align: center;
+  position: absolute;
+}
+
+.pixes {
+  width: 235px;
+  height: 235px;
+  text-align: center;
+  position: absolute;
+  background-color: #000000;
+  opacity: 0.8;
+}
+
+.pixes__text {
+  text-transform: uppercase;
+  color: #FFC700;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: centre;
+  margin-top: 30%;
+}
+
+.pixes__sub--text {
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: centre;
+}
+
+.hero__frame {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background-image: url(.img/Rectangle98.png);
+  opacity: 1;
+  z-index: 1000;
+}
+}
+
+
